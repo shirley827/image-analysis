@@ -20,7 +20,7 @@ var express = require("express"),
 	vr = require("./routes/vr"),
 	tts = require("./routes/tts");
 
-// Bootstrap application settings
+Bootstrap application settings
 var app = express();
 require("./config/express")(app);
 
